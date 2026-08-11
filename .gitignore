@@ -1,0 +1,70 @@
+# Carpetas de estructura personal
+!assets/
+!bin/
+
+# IPs / IP Cores
+ipcore_dir/*
+!ipcore_dir/*.xco
+!ipcore_dir/*.cgp
+!ipcore_dir/*.coe
+!ipcore_dir/*.v
+!ipcore_dir/*.veo
+
+# Archivos de proyecto ISE esenciales 
+!*.xise
+!*.gise
+!*.sch
+!*.sym
+!*.ucf
+!*.coe
+
+# Carpetas de caché pesada de ISE e ISim
+_ngo/
+iseconfig/
+xlnx_auto_0_xdb/
+xst/
+isim/
+
+# Archivos de reportes, logs y traducciones intermedias
+*.bld
+*.cmd_log
+*.map
+*.mrp
+*.ngd
+*.ngm
+*.pcf
+*.prj
+*.stx
+*.syr
+*.twr
+*.twx
+*.unroutes
+*.xpi
+*.xrpt
+*.ptwx
+*.pad
+*.par
+*.lso
+*.jhd
+*.ngr
+*.ut
+*.xwbt
+*.html
+*.xml
+*.log
+*.csv
+
+# Archivos Verilog/VHDL 
+*.vf
+*_drc.vf
+
+# Ejecutables
+*.exe
+*.wdb
+
+# Temporales globales de Xilinx
+_xmsgs/
+*_xdb/
+tmp/
+*.ncf
+*.xmdf.tlc

@@ -1,0 +1,24 @@
+#Reloj
+NET "CLK" LOC = "B8";
+#Entradas de carga
+NET "C0" LOC = "B18";
+NET "C1" LOC = "D18";
+NET "C2" LOC = "E18";
+NET "C3" LOC = "H13";
+NET "C4" LOC = "G18";
+NET "C5" LOC = "H18";
+NET "C6" LOC = "K18";
+NET "C7" LOC = "K17";
+#Selectores
+NET "S0" LOC = "L13";
+NET "S1" LOC = "N17";
+NET "S2" LOC = "R17";
+#Salidas
+NET "Q0" LOC = "J14";
+NET "Q1" LOC = "J15";
+NET "Q2" LOC = "K15";
+NET "Q3" LOC = "K14";
+NET "Q4" LOC = "E17";
+NET "Q5" LOC = "P15";
+NET "Q6" LOC = "F4";
+NET "Q7" LOC = "R4";

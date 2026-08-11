@@ -1,0 +1,1 @@
+sch2hdl,-sympath,/home/teban/Practica1/ipcore_dir,-intstyle,ise,-family,spartan3e,-verilog,/home/teban/Practica1/main.vf,-w,/home/teban/Practica1/main.sch
