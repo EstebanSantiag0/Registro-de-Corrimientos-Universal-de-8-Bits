@@ -68,3 +68,6 @@ _xmsgs/
 tmp/
 *.ncf
 *.xmdf.tlc
+
+# Netlists de los IP cores: necesarias para compilar desde un clon limpio
+!ipcore_dir/*.ngc

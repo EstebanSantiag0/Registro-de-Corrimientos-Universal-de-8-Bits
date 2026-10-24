@@ -15,7 +15,7 @@ Practica1/
 │   └── Screenshot_DIV.png  # Diagrama esquemático del divisor de frecuencia
 ├── bin/
 │   └── main.bit            # Binario ejecutable final listo para programar en la FPGA
-├── ipcore_dir/             # Bloques lógicos e IP Cores (Memoria ROM de datos)
+├── ipcore_dir/             # Bloques lógicos e IP Cores (incluye la netlist m.ngc para compilar)
 ├── DIV.sch                 # Esquemático del divisor de frecuencia
 ├── DIV.sym                 # Símbolo jerárquico del divisor de frecuencia
 ├── main.sch                # Esquemático principal del circuito de control
@@ -88,3 +88,15 @@ El estado completo del registro de 8 bits se despliega linealmente en la barra d
 Debido a que el reloj nativo de la placa oscila a una frecuencia demasiado alta (generalmente 50 MHz), los corrimientos ocurrirían de forma invisible al ojo humano. Para solucionar esto, se diseñó un bloque divisor de frecuencia que toma la señal CLK base y genera pulsos lentos secuenciales mediante contadores en cascada, permitiendo transiciones suaves y perceptibles en los LEDs.
 
 El esquema detallado de la infraestructura del divisor se encuentra documentado en la carpeta assets/.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+# CÓMO COMPILAR
+
+Abre `Practica1.xise` en Xilinx ISE 14.7 y ejecuta **Generate Programming File**. Verificado: el proyecto compila desde un clon limpio (`xc3s500e-5fg320`, 24 slices de 4,656) y cumple todas las restricciones de tiempo. Para solo programar la tarjeta, usa `bin/main.bit`.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+# AUTORÍA
+
+El diseño, los esquemáticos y el código de esta práctica son obra de **Esteban Santiago**.
